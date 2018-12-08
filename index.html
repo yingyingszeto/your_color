@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="og:image" content="images/auras.jpg">
+    <meta name="og:title" content="Your True Colours">
+    <meta name="og:description" content="You will be asked three questions. Turn each over in your own mind. Your aura will be reflected back to you.">
+
+    <title>Your True Colours</title>
+
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+
+</head>
+
+<body>
+    <section class="title current">
+        <div class="container">
+            <h1>I see your true colours</h1>
+            <hr/>
+            <p>You will be shown three prompts.</p>
+            <p>Take your time and turn each over in your own mind.</p>
+            <p>When you feel ready, use your intuition to select the circle that calls you.</p>
+            <p>After the third question, your aura will be reflected back to you.</p>
+            <input type="submit" value="Start" id="start">
+        </div>
+    </section>
+
+    <section class="firstPrompt">
+        <div class="container">
+            <div class="prompt prompt1">
+                <p class="prompts1"></p>
+            </div>
+
+            <fieldset class="selection selection1">
+                <p>When you’re ready,<br/>select the circle that calls to you.</p>
+                <div class="select">
+                    <input type="radio" name="userInputRed" id="optionRed1" value="">
+                    <label for="optionRed1"><span class="fa fa-circle-o"></span></label>
+
+                    <input type="radio" name="userInputRed" id="optionRed2" value="">
+                    <label for="optionRed2"><span class="fa fa-circle-o"></span></label>
+
+                    <input type="radio" name="userInputRed" id="optionRed3" value="">
+                    <label for="optionRed3"><span class="fa fa-circle-o"></span></label>
+                </div>
+
+            </fieldset>
+        </div>
+    </section>
+
+    <section class="secondPrompt">
+        <div class="container">
+            <div class="prompt prompt2">
+                <p class="prompts2"></p>
+            </div>
+
+            <fieldset class="selection selection2">
+                <p>Which circle are you drawn to?</p>
+                <div class="select">
+                    <label for="optionGreen1"><span class="fa fa-circle-o"></span></label>
+                    <input type="radio" name="userInputGreen" id="optionGreen1" value="">
+                    <label for="optionGreen2"><span class="fa fa-circle-o"></span></label>
+                    <input type="radio" name="userInputGreen" id="optionGreen2" value="">
+                    <label for="optionGreen3"><span class="fa fa-circle-o"></span></label>
+                    <input type="radio" name="userInputGreen" id="optionGreen3" value="">
+                </div>
+            </fieldset>
+        </div>
+    </section>
+
+    <section class="thirdPrompt">
+        <div class="container">
+            <div class="prompt prompt3">
+                <p class="prompts3"></p>
+            </div>
+
+            <fieldset class="selection selection3">
+                <p>Select the circle that calls to you.</p>
+                <div class="select">
+                    <label for="optionBlue1"><span class="fa fa-circle-o"></span></label>
+                    <input type="radio" name="userInputBlue" id="optionBlue1" value="">
+                    <label for="optionBlue2"><span class="fa fa-circle-o"></span></label>
+                    <input type="radio" name="userInputBlue" id="optionBlue2" value="">
+                    <label for="optionBlue3"><span class="fa fa-circle-o"></span></label>
+                    <input type="radio" name="userInputBlue" id="optionBlue3" value="">
+                </div>
+            </fieldset>
+        </div>
+    </section>
+
+    <section class="lastInput">
+        <div class="ready">
+            <p>Take a deep breath and relax.</p>
+            <input type="submit" value="I’m Ready" id="finish">
+        </div>
+    </section>
+
+    <section class="aura">
+        <h1 class="colourName"></h1>
+        <hr/>
+        <div class="colourMeaning"></div>
+        <ul class="share">
+            <li class="twitter">
+                <a href="https://twitter.com/intent/tweet?text=Discover%20your%20aura%20at%20https://github.com/yingyingszeto/your_color%20pic.twitter.com/xTreZlYNJh%20@yingyingszeto"><span class="fa fa-twitter"></span></a>
+            </li>
+        </ul>
+
+        <a href="index.html">Start Again</a>
+        <p class="copyright ">Copyright &copy; <a href="#">Ying Ying Szeto</a>, 2018<br/>
+            <a href="mailto:yingyingszetoo@gmail.com">Report an issue</a></p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin=" anonymous "></script>
+    <script src="js/colourMeaning.js "></script>
+    <script src="js/prompts.js "></script>
+    <script src="js/twitter.js "></script>
+    <script src="js/facebook.js "></script>
+    <script src="js/script.js "></script>
+
+</body>
+
+</html>

@@ -1,0 +1,722 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button,
+input {
+  line-height: normal; }
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+input[type=checkbox],
+input[type=radio] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body,
+figure {
+  margin: 0; }
+
+legend,
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.red {
+  background: -webkit-gradient(linear, right top, left top, from(#662438), color-stop(#df5131), to(#a13434));
+  background: -webkit-linear-gradient(right, #662438, #df5131, #a13434);
+  background: -o-linear-gradient(right, #662438, #df5131, #a13434);
+  background: linear-gradient(270deg, #662438, #df5131, #a13434);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+.orange {
+  background: -webkit-linear-gradient(237deg, #d9b98b, #e18551, #cc6613, #994949);
+  background: -o-linear-gradient(237deg, #d9b98b, #e18551, #cc6613, #994949);
+  background: linear-gradient(213deg, #d9b98b, #e18551, #cc6613, #994949);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 88%; }
+  50% {
+    background-position: 100% 13%; }
+  100% {
+    background-position: 0% 88%; } }
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 88%; }
+  50% {
+    background-position: 100% 13%; }
+  100% {
+    background-position: 0% 88%; } }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 88%; }
+  50% {
+    background-position: 100% 13%; }
+  100% {
+    background-position: 0% 88%; } }
+
+.yellow {
+  background: -webkit-linear-gradient(54deg, #f0eeaf, #f7cd21, #e1b598, #e2c465, #fff9ae);
+  background: -o-linear-gradient(54deg, #f0eeaf, #f7cd21, #e1b598, #e2c465, #fff9ae);
+  background: linear-gradient(36deg, #f0eeaf, #f7cd21, #e1b598, #e2c465, #fff9ae);
+  background-size: 1000% 1000%;
+  -webkit-animation: AnimationName 22s ease infinite;
+  -moz-animation: AnimationName 22s ease infinite;
+  animation: AnimationName 22s ease infinite;
+  color: #666; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+.green {
+  background: -webkit-linear-gradient(237deg, #1c4729, #bedda9, #8fb4a2, #778868);
+  background: -o-linear-gradient(237deg, #1c4729, #bedda9, #8fb4a2, #778868);
+  background: linear-gradient(213deg, #1c4729, #bedda9, #8fb4a2, #778868);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 88%; }
+  50% {
+    background-position: 100% 13%; }
+  100% {
+    background-position: 0% 88%; } }
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 88%; }
+  50% {
+    background-position: 100% 13%; }
+  100% {
+    background-position: 0% 88%; } }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 88%; }
+  50% {
+    background-position: 100% 13%; }
+  100% {
+    background-position: 0% 88%; } }
+
+.turquoise {
+  background: -webkit-linear-gradient(237deg, #8bd9be, #145e6b, #90cdce, #499599);
+  background: -o-linear-gradient(237deg, #8bd9be, #145e6b, #90cdce, #499599);
+  background: linear-gradient(213deg, #8bd9be, #145e6b, #90cdce, #499599);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 88%; }
+  50% {
+    background-position: 100% 13%; }
+  100% {
+    background-position: 0% 88%; } }
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 88%; }
+  50% {
+    background-position: 100% 13%; }
+  100% {
+    background-position: 0% 88%; } }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 88%; }
+  50% {
+    background-position: 100% 13%; }
+  100% {
+    background-position: 0% 88%; } }
+
+.blue {
+  background: -webkit-linear-gradient(237deg, #251c47, #74aadf, #8fb4b2, #60bdf2);
+  background: -o-linear-gradient(237deg, #251c47, #74aadf, #8fb4b2, #60bdf2);
+  background: linear-gradient(213deg, #251c47, #74aadf, #8fb4b2, #60bdf2);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 88%; }
+  50% {
+    background-position: 100% 13%; }
+  100% {
+    background-position: 0% 88%; } }
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 88%; }
+  50% {
+    background-position: 100% 13%; }
+  100% {
+    background-position: 0% 88%; } }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 88%; }
+  50% {
+    background-position: 100% 13%; }
+  100% {
+    background-position: 0% 88%; } }
+
+.purple {
+  background: -webkit-linear-gradient(248deg, #7500fd, #9c7fd7, #f9d304);
+  background: -o-linear-gradient(248deg, #7500fd, #9c7fd7, #f9d304);
+  background: linear-gradient(202deg, #7500fd, #9c7fd7, #f9d304);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  -o-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 61%; }
+  50% {
+    background-position: 100% 40%; }
+  100% {
+    background-position: 0% 61%; } }
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 61%; }
+  50% {
+    background-position: 100% 40%; }
+  100% {
+    background-position: 0% 61%; } }
+
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 61%; }
+  50% {
+    background-position: 100% 40%; }
+  100% {
+    background-position: 0% 61%; } }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 61%; }
+  50% {
+    background-position: 100% 40%; }
+  100% {
+    background-position: 0% 61%; } }
+
+.white {
+  background: -webkit-linear-gradient(208deg, #d2f2ee, #eafdfa, #f6f9ec, #ecc5d1);
+  background: -o-linear-gradient(208deg, #d2f2ee, #eafdfa, #f6f9ec, #ecc5d1);
+  background: linear-gradient(242deg, #d2f2ee, #eafdfa, #f6f9ec, #ecc5d1);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  -o-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+  color: #666; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 61%; }
+  50% {
+    background-position: 100% 40%; }
+  100% {
+    background-position: 0% 61%; } }
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 61%; }
+  50% {
+    background-position: 100% 40%; }
+  100% {
+    background-position: 0% 61%; } }
+
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 61%; }
+  50% {
+    background-position: 100% 40%; }
+  100% {
+    background-position: 0% 61%; } }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 61%; }
+  50% {
+    background-position: 100% 40%; }
+  100% {
+    background-position: 0% 61%; } }
+  .white input[type="submit"] {
+    background: #666;
+    color: #fff;
+    border: 3px solid #666; }
+    .white input[type="submit"]:hover {
+      background: rgba(255, 255, 255, 0.01);
+      color: #666;
+      padding: 10px 30px 8px; }
+  .white a {
+    color: #666;
+    border-bottom: 1px solid #999;
+    border-top: 3px solid transparent; }
+    .white a:hover {
+      background: rgba(255, 255, 255, 0.25);
+      border: 3px solid #999; }
+  .white li a {
+    text-decoration: none;
+    border: 0; }
+    .white li a:hover {
+      color: rgba(0, 0, 0, 0.1);
+      border: 0;
+      text-shadow: 0;
+      background: 0; }
+      .white li a:hover:after {
+        color: #666;
+        text-shadow: 0px 0px 5px #fff; }
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  background: #333;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  text-shadow: 0px 0px 10px #fff;
+  font-size: 20px; }
+
+body {
+  background: -webkit-linear-gradient(280deg, #308a73, #6a576b, #b5afb0);
+  background: -o-linear-gradient(280deg, #308a73, #6a576b, #b5afb0);
+  background: linear-gradient(170deg, #308a73, #6a576b, #b5afb0);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 19s ease infinite;
+  -moz-animation: AnimationName 19s ease infinite;
+  animation: AnimationName 19s ease infinite; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 32%; }
+  50% {
+    background-position: 100% 69%; }
+  100% {
+    background-position: 0% 32%; } }
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 32%; }
+  50% {
+    background-position: 100% 69%; }
+  100% {
+    background-position: 0% 32%; } }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 32%; }
+  50% {
+    background-position: 100% 69%; }
+  100% {
+    background-position: 0% 32%; } }
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  font-weight: 100; }
+
+p {
+  font-size: 1em;
+  line-height: 1.3em;
+  max-width: 30em;
+  margin: 5px auto;
+  text-align: center; }
+
+p.copyright {
+  margin-top: 35px;
+  font-size: 0.65em;
+  background: none; }
+  p.copyright a {
+    padding: 0;
+    background: none;
+    border: none;
+    text-decoration: underline; }
+
+hr {
+  background: white;
+  width: 50px;
+  margin: 20px auto;
+  height: 1px;
+  border: 0;
+  -webkit-box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px white; }
+
+fieldset {
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 30px; }
+  fieldset p {
+    font-size: 0.8em; }
+
+.prompt {
+  font-size: 20px;
+  max-width: 20em;
+  width: 100%; }
+
+.selection p {
+  line-height: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  width: 100%;
+  margin-bottom: 50px; }
+
+ul {
+  padding: 0;
+  margin-top: 30px; }
+
+li {
+  display: inline-block;
+  font-size: 50px;
+  position: relative;
+  width: 75px; }
+  li a {
+    text-decoration: none;
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 15px; }
+    li a:hover {
+      border: 0;
+      padding: 0;
+      background: 0;
+      color: rgba(225, 225, 225, 0); }
+      li a:hover:after {
+        content: "share";
+        weight: 300;
+        color: white;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        position: absolute;
+        right: 50%;
+        top: 50%;
+        -webkit-transform: translateX(50%) translateY(-50%);
+        -ms-transform: translateX(50%) translateY(-50%);
+        transform: translateX(50%) translateY(-50%);
+        text-shadow: 0px 0px 5px #333; }
+
+li.twitter a:hover:after {
+  content: "tweet"; }
+
+input[type="submit"] {
+  padding: 10px 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background: #fff;
+  color: #333;
+  -webkit-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+  border: 3px solid white;
+  margin: 40px 20px 20px;
+  font-size: 1em;
+  text-decoration: none; }
+  input[type="submit"]:hover {
+    background: rgba(255, 255, 255, 0.01);
+    color: #fff; }
+  input[type="submit"]:active {
+    background: #fff;
+    color: #333; }
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-top: 50px;
+  background: rgba(225, 225, 225, 0.25);
+  border: 3px solid rgba(225, 225, 225, 0);
+  border-radius: 2px;
+  -webkit-transition: border 0.4s;
+  -o-transition: border 0.4s;
+  transition: border 0.4s; }
+  a:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border: 3px solid white; }
+
+input[type="radio"] {
+  visibility: hidden;
+  position: absolute;
+  cursor: pointer; }
+
+label {
+  margin: 0 auto;
+  margin: 0;
+  font-size: 30px;
+  cursor: pointer; }
+  label:hover {
+    text-shadow: 0 0 25px; }
+
+.select {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+section {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  max-width: 80%; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; }
+
+@media (max-width: 500px) {
+  body {
+    font-weight: 300;
+    font-size: 16px; }
+  ul.share {
+    margin: 20px 0 0; }
+  li {
+    margin: 10px;
+    padding: 0 10px;
+    width: 45px; }
+    li a {
+      margin: 0; }
+  a {
+    margin-top: 20px; } }
